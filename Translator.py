@@ -3,7 +3,7 @@ from enum import Enum
 SINGLE_SPACE_STR = " "
 
 
-def capitalize_keys(d):
+def capitalize_keys(d: dict) -> dict:
     """
     Returns a new dictionary with uppercase string values for the keys by looping through the key and values
     of the dictionary passed in the function argument.  The values are copied into the new dictionary.
